@@ -52,6 +52,7 @@ body{
 .no-list-style li {
 	font-weight: 100;
 	font-size: 0.9rem;
+	list-style: none;
 }
 .no-list-style li a{
 	list-style: none;
