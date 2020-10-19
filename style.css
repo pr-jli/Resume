@@ -1,0 +1,573 @@
+body{
+	margin: 0px;
+}
+/* body header*/
+#body-header{
+	background-image: url(images/body-header2.jpeg);
+	height: 65vh;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	background-attachment: fixed;
+}
+/* horizontal-list*/
+
+.bars{
+	color:white;
+	margin:0;
+	margin-right: 5%;
+	display: none;
+}
+
+.bars i{
+	font-size: 2rem;
+	margin-top: 1rem;
+}
+
+.dropdown-list{
+	margin:0;
+	display: none;
+	background-color: #828470;
+	box-shadow: 0px 4px 8px 1px #535547;
+}
+.dropdown-list ul{
+	margin: 0.2rem 0.2rem;
+	text-align: left;
+	padding: 0px 0.8rem;
+
+}
+
+.dropdown-menu:hover .dropdown-list{
+	display: block;
+	position: absolute;
+	right: 3%;
+}
+
+.dropdown-list li{
+	margin: 0.4rem 0px;
+}
+.no-style-list{
+	list-style: none;
+}
+.no-list-style li {
+	font-weight: 100;
+	font-size: 0.9rem;
+}
+.no-list-style li a{
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.horizontal-list{
+	
+	font-family: Verdana, Geneva, sans-serif;
+	
+	padding-left: 0px;
+	margin:0px;
+
+
+	
+}
+.horizontal-list li{
+	display: inline-block;
+	margin: 20px 18px 18px 0px;
+}
+.horizontal-list li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+.nav-menu{
+	transition: color 0.5s,border-bottom: 4s;
+}
+.nav-menu li a:hover
+{
+	color:lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+/* common class*/
+
+.text-right{
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/*name of the person*/
+.name{
+	font-size:3rem;
+	font-family: 'Lato';
+	font-weight: 700;
+	color: white;
+	margin: 100px 0px 0px 0px;
+	letter-spacing: 0.5rem;
+}
+/*social sectiom*/
+.social  li{
+	margin: 100px 18px 18px 0px;
+}
+
+.horizontal-list  .social  li{
+	display: inline;
+	
+}
+
+
+
+
+.social  li a i
+{
+	
+	padding: 10px;
+	font-size: 2rem;
+	border-radius: 50%;
+
+	
+}
+.social  li a i:hover
+{
+	box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+/*about section*/
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+
+
+}
+
+#about-para {
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+#my-image{
+	height: 17rem;
+    width: 17rem;
+    margin: auto;
+    margin-top: -10vh;
+
+
+}
+#my-image img{
+	height: 100%; /*(adjust the widht and height of the img tag to that of the parent that is my-image div*/
+	width: 100%;
+	border-radius: 50%;
+	border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  box-shadow: 0px 0px 6px 4px lightgrey;
+
+   /*height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+
+}*/
+}
+
+/*section*/
+section{
+	width: 100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+section:nth-child(2n){
+	background-color: #E8E8E8;
+}
+
+section:nth-child(2n+1){
+	background-color: white;
+}
+
+
+/*skills section*/
+
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	font-weight: 400;
+}
+.section-heading span{
+	font-size: 40px;
+	color:#2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.skill-display{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+.skill-name span{
+	color: white;
+	font-size: 1rem;
+	margin-left: 10px;
+
+	
+}
+.skill-name{
+	padding: 8px 10px 10px 10px;
+}
+
+
+
+
+
+.skill-progress{
+	width: 9rem;
+	height: 2rem;
+	background-color: lightgrey;
+	border-radius: 0.8rem;
+	margin: 25px;
+	 
+	
+}
+.mb75px{
+	margin-bottom: 75px;
+}
+
+.text-highlight{
+	color: #2857a4;
+	font-weight: 600;
+
+
+}
+.mb-blue{
+	background-color: #2857a4;
+}
+.mb-orange{
+	background-color: orange;
+}
+.mb-cyan{
+	background-color: #5f9ea0;
+}
+/*percentage cls*/
+
+.eighty-five-percent{
+	width: 85%;
+	height: inherit;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+.eighty-percent{
+	width: 80%;
+	height: inherit;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+/*Contact section*/
+#contact{
+	background-image: linear-gradient(to right top ,#2c5099, #3f3168);
+	display: flex;
+}
+
+#contact .section-heading span{
+	color: white;
+	}
+
+
+.contact-display 
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	justify-content:space-around;
+}
+.contact-display .contact-form{
+	margin-top: 35px;
+
+	
+}
+.contact-display .contact-form input{
+	margin:10px;
+	display: block;
+	padding: 10px;
+	border:0;
+	border-bottom: 2px solid white;
+	background-color: transparent;
+	width: 80%;
+}
+.contact-display .contact-form textarea{
+	margin:10px;
+	display: block;
+	padding: 10px;
+	border:0;
+	border-bottom: 2px solid white;
+	background-color: transparent;
+	width: 80%;
+}
+.contact-display .contact-form button{
+	display: block;
+	margin:30px;
+	padding: 15px;
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+
+}
+.address-data {
+	width: 50%;
+	
+}
+.address-data .get-in-touch{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+}
+
+.data-form{
+	width: 50%;
+	
+	
+}
+.address-data h3{
+	color: white;
+}
+.address-data p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+.address-data div span{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	margin: 10px;
+}
+.address-data div {
+	margin: 15px;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.contact-form{
+		margin-left: 0%
+	}
+	.contact-display{
+		flex-wrap: wrap;
+	}
+	.address-data{
+		width: 80%;
+		margin: 10%;
+	}
+	.data-form{
+		width: 80%;
+		margin: 10%;
+	}
+	}
+}
+
+/*portfolio section*/
+
+.projects-display{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+.projects-display  .image{
+	height: 17rem;
+	width: 27rem;
+	margin: 2rem;
+	
+
+}
+.projects-display .image img{
+	height: 100%;/* adjust the widht and height of the img tag to that of the parent that is my-image div*/
+	width: 100%;
+	border-radius: 0.8rem;
+
+}
+.projects-display div img:hover{
+	box-shadow: 0px 0px 6px 4px grey;
+}
+
+/* timeline section*/
+
+.timeline{
+	position: relative;
+	width: 75%;
+	margin-bottom: 100px;
+	
+}
+
+.timeline-box{
+
+	position: relative;
+	margin:5px;
+	width: 40%;
+	left:5%;
+	min-height: 150px;
+	
+	
+
+
+}
+.timeline-box:nth-child(2n){
+	left:53%;
+
+}
+
+.timeline-box:nth-child(2n+1)::after{
+	content: '';
+	border-radius: 50%;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-color: #0096fa6b;
+	position: absolute;
+	top:30%;
+	right: -13%;
+	z-index: 1;
+}
+
+.timeline-box:nth-child(2n)::after{
+	content: '';
+	border-radius: 50%;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-color: #0096fa6b;
+	position: absolute;
+	top:30%;
+	left: -9%;
+	z-index: 1;
+}
+
+
+
+
+.timeline-divider{
+	width: 0px;
+	height: 75%;
+	border:3px dashed #0096fa6b;
+	position:absolute;
+	top:10%;
+	left: 50%;
+}
+
+.timeline-traveller{
+	top: 30%;
+	position:sticky;
+	transform: rotate(90deg);
+	font-size: 2rem;
+	color:  #2857a4;
+	z-index: 2;
+
+}
+
+
+@media  screen and (max-width: 600px){
+.timeline-divider{
+	left:5%;
+}
+
+.timeline-box{
+	left:12%;
+	width: 80%;
+
+}
+
+.timeline-box:nth-child(2n){
+	left:12%;
+}
+
+.timeline-box:nth-child(2n+1)::after{
+	left:-11%;}
+
+.timeline-box:nth-child(2n)::after{
+	left:-11%;
+}	
+html{
+	font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 576px){
+	.timeline-box {
+        width: 100%;
+        left: 10% !important;
+    }
+
+    .bars {
+        display: block;
+    }
+    
+    
+    .nav-menu {
+        display: none;
+    } 
+}
+
+
+ .timeline-heading:nth-child(n){
+	color:  #2857a4;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-weight: bold;
+	 text-align: center;
+	 font-size: 1.5rem;
+	 margin: 0;
+    padding: 0;
+
+}
+
+
+.timeline-sub-heading:nth-child(n){
+	font-family: 'Lato';
+	text-align: center;
+	font-size: 1rem;
+	color: #f9601e;
+	margin: 0;
+    padding: 0;
+}
+.timeline-time:nth-child(n){
+	font-family: 'Lato';
+	text-align: center;
+	font-size: 0.7rem;
+	color: grey;
+	margin: 0;
+    padding: 0;
+}
+.timeline-para:nth-child(n){
+	font-family: 'Lato';
+	text-align: center;
+	font-size: 0.9rem;
+	color: grey;
+	margin: 0;
+    padding: 0;
+}
+
+
+/* .timeline-heading:nth-child(2n){
+	color:  #2857a4;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-weight: bold;
+	 text-align: center;
+
+}*/
